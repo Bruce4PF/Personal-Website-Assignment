@@ -1,0 +1,74 @@
+/*
+    Fonts selected from Google Fonts https://fonts.google.com
+
+    Header
+        Inter       Medium 500
+                    Bold 700
+    Text
+        Inter       Regular 400
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+:root {
+    --site-font-family: 'Poppins', sans-serif;
+    --text-weight: 400;
+    --bold-font-weight: 500;
+    --header-font-weight: 700;
+}
+
+/*
+    I chose these lines using a palette creator. I find that these websites create 
+    very well suited, matching colours, that I enjoy. I flipped through ~10 palettes 
+    and came across the one below.
+
+    Website used: https://coolors.co/generate
+
+    Color 1     #020202    	    hsl(0, 0%, 1%)
+    Color 2     #0D324D         hsl(205, 71%, 18%)
+    Color 3     #7F5A83         hsl(294, 19%, 43%)
+    Color 4     #A188A6         hsl(290, 14%, 59%)
+    Color 5     #6b7076         hsl(213, 5%, 44%)
+    Color 6     #6610f2         hsl(263, 90%, 51%)
+
+*/
+
+:root {
+    --colour-1:	hsl(0, 0%, 1%);
+    --colour-2: hsl(205, 71%, 18%);
+    --colour-3: hsl(294, 19%, 43%);
+    --colour-4: hsl(290, 14%, 59%);
+    --colour-5: hsl(213, 5%, 44%);
+    --colour-6: hsl(263, 90%, 51%);
+}
+
+/* Start of Font Sizing */
+h1 {
+    font-size: 2rem;
+    font-family: var(--site-font-family);
+    font-weight: var(--header-font-weight);
+    color: var(--colour-2);
+}
+h2 {
+    font-size: 1.6rem;
+    font-family: var(--site-font-family);
+    font-weight: var(--header-font-weight);
+    color: var(--colour-6);
+}
+h3 {
+    font-size: 1rem;
+    font-family: var(--site-font-family);
+    font-weight: var(--header-font-weight);
+    color: var(--colour-1);
+}
+h4 {
+    font-size: 1rem;
+    font-family: var(--site-font-family);
+    font-weight: var(--bold-font-weight);
+    color: var(--colour-5);
+}
+p {
+    font-family: var(--site-font-family);
+    font-size: 0.9rem;
+    font-weight: var(--text-font-weight);
+    color: var(--colour-2);
+}
